@@ -51,7 +51,7 @@ if __name__ == '__main__':
     # 1) définir: régression
 
     # 2) préparation des données:
-    x, y = get_data("/home/chim/Documents/ENS/IA/AA/TP1/sequence/train/")
+    x, y = get_data("dataset/train/")
     x = x.reshape(-1, 1)
 
     # 3) select model:
